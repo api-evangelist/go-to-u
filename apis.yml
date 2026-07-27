@@ -1,7 +1,18 @@
 aid: go-to-u
 name: Go To-U
-description: Go To-U is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  GO TO-U is an operating system for electric-vehicle charging management, built
+  for Charge Point Operators (CPOs) and businesses that run charging
+  infrastructure. The platform is hardware-agnostic, integrating with 50+
+  charger manufacturers (ABB, Wallbox, Siemens, EVBox and others), and bundles
+  charge-point management, AI-powered analytics and load optimization, a
+  driver-facing mobile app (iOS and Android), roaming, white-label options, and
+  integrated payment processing. Its Advanced Reservation Technology (ART) lets
+  drivers book charging slots in advance to reduce wait times. GO TO-U is a
+  Techstars portfolio company. This profile was enriched from the company's
+  public website; no public developer/API documentation, SDKs, or
+  machine-readable API specifications were discoverable at the time of
+  enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/go-to-u/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://goto-u.com/images/home-preview.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- EV Charging
+- Electric Vehicles
+- Energy
+- Mobility
+- Charge Point Operator
+- Sustainability
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/go-to-u-domain-security.yml
 - type: Website
-  url: https://go-tou.com/
+  url: https://goto-u.com/
+- type: Blog
+  url: https://goto-u.com/en/news
+- type: Support
+  url: https://goto-u.com/en/contact
+- type: SignUp
+  url: https://goto-u.com/en/partnership
+- type: TermsOfService
+  url: https://goto-u.com/en/public-agreement
+- type: PrivacyPolicy
+  url: https://goto-u.com/en/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/GO-TO-U
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
